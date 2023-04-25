@@ -66,17 +66,21 @@ li a:hover{
     font-size: 14px;
     line-height: 17px;
  }
-footer{
-    background: #10403B;
-    height: 80px;
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    bottom: 0px;
-    position: fixed;
-    color: #BFBFBF;
+    background: #127369;
+    height: 118px;
+    font-size: 15px;
     text-align: center;
-    padding: 30px;
+    color: #BFBFBF;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
     box-sizing: border-box;
-}
+  }
 
 .foto{
     width: 272px;
@@ -100,6 +104,10 @@ footer{
     margin: 0 auto;
 }
 
+  nav ul li a{
+  margin: 5px;
+  }
+
   .contenedortextoimagen {
     flex-direction: column;
     align-items: center;
@@ -111,6 +119,13 @@ footer{
     height: auto;
     border-radius: 0;
   }
-
 }
+@media only screen and (max-width: 399px) {
+
+  footer {
+    max-height: 20px;
+  }
+}
+
+
 
