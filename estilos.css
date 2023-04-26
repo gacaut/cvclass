@@ -96,12 +96,15 @@ footer{
   }
 
 @media only screen and (max-width: 768px) {
+  body {
+    min-height: 100vh;
+  }
  
   nav ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-}
+  }
 
   nav ul li a{
   margin: 5px;
