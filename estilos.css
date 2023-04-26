@@ -119,7 +119,12 @@ footer{
     border-radius: 0;
   }
 }
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 379px) {
+  
+  body {
+    position:relative;
+    padding-bottom: 2em;
+}
 
   footer {
     max-height: 40px;
