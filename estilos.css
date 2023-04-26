@@ -70,7 +70,7 @@ footer{
     background:#127369 ;
     color:#BFBFBF;
     height: 70px;
-    position: relative;
+    position: fixed;
     text-align: center;
     align-items: center;
     margin:-10px;
@@ -118,6 +118,7 @@ footer{
 
   footer {
     max-height: 40px;
+      bottom: 0;
   }
 }
 
