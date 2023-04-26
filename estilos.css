@@ -66,20 +66,6 @@ li a:hover{
     font-size: 14px;
     line-height: 17px;
  }
- footer{
-  background: #a37319;
-  position: fixed;
-  height: 100px;
-  width: 100%;
-  font-size: 15px;
-  bottom: 0px;
-  color: #BFBFBF;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 10px;
-  margin-top: 11vh; 
-  }
 
  .foto{
     width: 272px;
@@ -94,6 +80,20 @@ li a:hover{
     margin-top: 50px;
     margin-bottom: 20px;
 }
+footer{
+  background: #a37319;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  font-size: 15px;
+  bottom: 0px;
+  color: #BFBFBF;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px;
+  margin-top: 11vh; 
+  }
 
 @media only screen and (max-width: 768px) {
  
